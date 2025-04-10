@@ -58,9 +58,10 @@ body {
 }
 
 .cover {
-  background-color: aquamarine;
+  background-image: url("../images/cover.jpg");
   height: 757px;
-  
+  position: relative;
+  inset: 0;
 }
 
 .lots {
