@@ -1,22 +1,38 @@
 /* место для вашего кода */
 header {
   background-color: aqua;
+  height: 293px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
 }
 
 .cover {
   background-color: aquamarine;
+  height: 757px;
+  
 }
 
 .lots {
   background-color: blue;
+  height: 723px;
+  padding-left: 24px;
+  padding-right: 24px;
+
 }
 
 .about {
   background-color: burlywood;
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 595px;
 }
 
 footer {
   background-color: darkorchid;
+  height: 180px;
 }
 
 ul {
