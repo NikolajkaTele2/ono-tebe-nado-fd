@@ -1,7 +1,55 @@
 /* место для вашего кода */
 header {
   background-color: aqua;
+  display: grid;
+  grid-template-columns: 1fr min-content 1fr;
+  align-items: center;
   height: 293px;
+}
+
+.header__links-list {
+  grid-column: 1;
+  padding-left: 50px;
+  display: flex;
+  gap: 30px;
+}
+
+.header__links-list-item {
+  list-style: circle;
+}
+
+.header__links-list-item_no-bullit {
+  list-style: none;
+}
+
+.header__link_active {
+  text-decoration: none;
+}
+
+.header__link {
+  text-decoration: underline;
+}
+
+address {
+  font-style: normal;
+  padding-right: 50px;
+  max-width: 240px;
+  justify-self: end;
+}
+
+.header__logo {
+  grid-column: 2;
+  display: block;
+}
+
+.header__logo-image {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.address {
+  grid-column: 3;
 }
 
 body {
