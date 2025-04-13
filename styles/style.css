@@ -1,6 +1,6 @@
 /* место для вашего кода */
 header {
-  background-color: aqua;
+  background-color: white;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
@@ -57,11 +57,51 @@ body {
   flex-direction: column;
 }
 
+
 .cover {
+  display: flex;
+  flex-direction: column;
   background-image: url("../images/cover.jpg");
   height: 757px;
+  background-size: cover;
+  background-position: center;
   position: relative;
   inset: 0;
+  
+}
+
+.overlay {
+  background-color: #000000;
+  opacity: 60%;
+  height: 100%;
+  z-index: 0;
+  inset: 0;
+}
+
+.cover__title {
+  /* z-index: 2; */
+  line-height: 1.15;
+  font-weight: bold;
+  font-size: 100px;
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
+  margin-bottom: 135px;
+}
+
+.aligned-text {
+  z-index: 1;
+  display: block;
+  line-height: 1;
+  margin-top: 20px;
+}
+
+.aligned-text_center {
+  text-align: center;
+}
+
+.aligned-text_right {
+  text-align: right;
 }
 
 .lots {
