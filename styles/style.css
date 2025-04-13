@@ -85,12 +85,13 @@ body {
   font-size: 100px;
   text-transform: uppercase;
   letter-spacing: 0.3em;
-  color: #FFFFFF;
   margin-bottom: 135px;
 }
 
 .aligned-text {
   z-index: 1;
+  font-size: 100px; /* TODO размер */
+  color: #FFFFFF;
   display: block;
   line-height: 1;
   margin-top: 20px;
@@ -102,6 +103,31 @@ body {
 
 .aligned-text_right {
   text-align: right;
+}
+
+.cover__description {
+  display: flex;
+  align-items: flex-end;
+  z-index: 1;
+  align-items: center;
+}
+
+.cover__description-text {
+  color: #FFFFFF;
+  font-size: 22px;
+  line-height: 28px;
+  text-transform: uppercase;
+  word-spacing: 19px;
+}
+
+.bet-button {
+  padding: 12px 32px 11px 31px;
+  background-color: transparent;
+  border: 1px solid currentColor;
+  font-size: 22px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  font-family: inherit;
 }
 
 .lots {
