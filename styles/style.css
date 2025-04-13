@@ -110,6 +110,7 @@ body {
   align-items: flex-end;
   z-index: 1;
   align-items: center;
+  gap: 80px;
 }
 
 .cover__description-text {
