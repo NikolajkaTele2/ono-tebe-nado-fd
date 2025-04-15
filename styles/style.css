@@ -1,10 +1,10 @@
-/* место для вашего кода */
-header {
+.header {
   background-color: white;
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  height: 293px;
+  margin-top: 133px;
+  margin-bottom: 95px;
 }
 
 .header__links-list {
@@ -25,12 +25,12 @@ header {
   
 }
 
-.header__link_active {
-  text-decoration: none;
-}
-
 .header__link {
   text-decoration: underline;
+}
+
+.header__link_active {
+  text-decoration: none;
 }
 
 .header__logo {
@@ -49,15 +49,10 @@ header {
   font-style: normal;
   font-size: 18px;
   display: block;
-  line-height: 1.35em;
+  line-height: 24.3px;
   text-underline-position: under;
   color: #000000;
-  padding-right: 50px;
-}
-
-body {
-  display: flex;
-  flex-direction: column;
+  padding-right: 80px;
 }
 
 .content {
@@ -70,12 +65,9 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url("../images/cover.jpg");
-  height: 757px;
   background-size: cover;
   background-position: center;
   position: relative;
-  inset: 0;
-  
 }
 
 .overlay {
@@ -88,7 +80,7 @@ body {
 
 h1.cover__title {
   position: relative;
-  padding: 165px 50px 106px 50px;
+  padding: 165px 10px 106px 50px;
   line-height: 1.15;
   font-weight: bold;
   font-size: 100px;
@@ -101,7 +93,8 @@ h1.cover__title {
   color: #FFFFFF;
   z-index: 2;
   display: block;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
+  text-transform: uppercase
 }
 
 .aligned-text_center {
@@ -110,6 +103,7 @@ h1.cover__title {
 
 .aligned-text_right {
   text-align: right;
+  margin-bottom: -10px;
 }
 
 .letter-spacing-extended {
@@ -121,7 +115,7 @@ h1.cover__title {
   align-items: flex-end;
   padding: 0px 50px 50px 50px;
   z-index: 1;
-  gap: 80px;
+  gap: 104px;
 }
 
 .cover__description-text {
@@ -183,7 +177,6 @@ h1.cover__title {
   background-size: cover;
   background-position: center;
   position: relative;
-  inset: 0;
 }
 
 .card_type_film {
@@ -278,7 +271,7 @@ h1.cover__title {
   gap: 24px;
 }
 
-footer {
+.footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 180px 50px 0px 50px;
@@ -293,6 +286,10 @@ footer {
   justify-content: flex-start;
   font-size: 18px;
   color: #000000;
+}
+
+.footer__menu-link {
+  text-decoration: underline;
 }
 
 .footer__menu-link_active {
