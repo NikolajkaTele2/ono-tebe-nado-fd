@@ -60,7 +60,6 @@
   flex-direction: column;
 }
 
-
 .cover {
   display: flex;
   flex-direction: column;
@@ -241,16 +240,14 @@ h1.cover__title {
   width: 240px;
   height: 240px;
   border-radius: 50%;
-  margin-left: 47px ;
 	background-color: #000000;
+  margin-left: 47px;
 }
 
 .about__logo-image {
   align-self: center;
   width: 148px;
   height: 114px;
-
-  
 }
 
 .about__title {
@@ -273,9 +270,20 @@ h1.cover__title {
 
 .footer {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  padding: 180px 50px 0px 50px;
+  grid-template-columns: 375px 1fr 1fr;
+  padding: 180px 0px 0px 0px;
   margin-bottom: 82px;
+}
+
+.footer__address {
+  justify-self: start;
+  font-style: normal;
+  font-size: 18px;
+  line-height: 24.3px;
+  text-underline-position: under;
+  color: #000000;
+  padding-right: 80px;
+  margin-left: 50px;
 }
 
 .footer__menu-list {
@@ -303,6 +311,7 @@ h1.cover__title {
   align-items: flex-start;
   gap: 48px;
   list-style: none;
+  padding-right: 50px;
 }
 
 .footer__social-icon {
