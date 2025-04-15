@@ -242,7 +242,7 @@ h1.cover__title {
 }
 
 .about__column {
-  padding: 35px 0px 0px 47px;
+  padding-top: 35px;
 }
 
 .about__logo {
@@ -251,6 +251,7 @@ h1.cover__title {
   width: 240px;
   height: 240px;
   border-radius: 50%;
+  margin-left: 47px ;
 	background-color: #000000;
 }
 
@@ -258,6 +259,7 @@ h1.cover__title {
   align-self: center;
   width: 148px;
   height: 114px;
+
   
 }
 
