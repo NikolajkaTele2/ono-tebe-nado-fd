@@ -4,7 +4,7 @@
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
   margin-top: 92px;
-  margin-bottom: 95px;
+  margin-bottom: 99px;
 }
 
 .header__links-list {
@@ -12,7 +12,7 @@
   padding-left: 50px;
   padding-right: 1px;
   display: flex;
-  gap: 32px; /*good*/
+  gap: 33px; /*good*/
   font-size: 18px;
 }
 
@@ -28,6 +28,7 @@
 
 .header__link {
   text-decoration: underline;
+  text-underline-offset: 2px;
 }
 
 .header__link_active {
@@ -53,7 +54,7 @@
   line-height: 24.3px;
   text-underline-position: under;
   color: #000000;
-  padding-right: 90px; /* good */
+  padding-right: 88px; /* good */
 }
 
 .content {
@@ -80,7 +81,7 @@
 
 h1.cover__title {
   position: relative;
-  padding: 165px 25px 106px 50px;
+  padding: 165px 20px 106px 50px;
   line-height: 1.15;
   font-weight: bold;
   font-size: 100px;
@@ -93,13 +94,13 @@ h1.cover__title {
   color: #FFFFFF;
   z-index: 2;
   display: block;
-  margin-bottom: 25px;
+  margin-bottom: 20px;
   text-transform: uppercase
 }
 
 .aligned-text_center {
   text-align: center;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
 }
 
 .aligned-text_right {
