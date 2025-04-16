@@ -273,6 +273,10 @@ h1.cover__title {
   gap: 24px;
 }
 
+.padding-right-5 {
+  padding-right: 5px;
+}
+
 .footer {
   display: grid;
   grid-template-columns: 375px 1fr 1fr;
@@ -287,8 +291,7 @@ h1.cover__title {
   line-height: 24.3px;
   text-underline-position: under;
   color: #000000;
-  padding-right: 80px;
-  margin-left: 50px;
+  margin-left: 51.1px;
 }
 
 .footer__menu-list {
@@ -299,10 +302,12 @@ h1.cover__title {
   justify-content: flex-start;
   font-size: 18px;
   color: #000000;
+  margin-right: 10px;
 }
 
 .footer__menu-link {
   text-decoration: underline;
+  text-underline-offset: 3px;
 }
 
 .footer__menu-link_active {
